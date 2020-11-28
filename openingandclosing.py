@@ -109,7 +109,7 @@ def my_dilation(img_1,mask,morphologyOperation='dilation'):
 
 pathfile="/home/gokce/goruntuisleme/download.png"
 
-img_1 = plt.imread(path_file)
+img_1 = plt.imread(pathfile)
 img_2 = convert_RGB_to_monochrome_BW(img_1,0.5)
 
 plt.subplot(1,2,1),plt.imshow(img_1)
